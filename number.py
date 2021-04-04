@@ -1,0 +1,15 @@
+import math,random
+list=[1,2,3,4,5]
+print(min(list))
+t=math.modf(2.5)
+print(t[0])
+print(round(3.65,1))
+print(math.sqrt(2))
+print(random.choice(list))
+print(random.randrange(5,20,5))
+print(list)
+random.shuffle(list)
+print(list)
+print(random.uniform(10,11))
+print(math.pi)
+print(math.e)
