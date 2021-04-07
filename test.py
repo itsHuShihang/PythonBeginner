@@ -9,3 +9,8 @@ import myFunctions
 # myFunctions.guessNumber(5)
 
 #myFunctions.forTest()
+
+# max, min = myFunctions.findMaxAndMin(1, 2, 3, 4, 5, 6, 7)
+# print('max=', max, 'min=', min)
+
+# print(myFunctions.mySum(1,12))

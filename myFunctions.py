@@ -1,20 +1,20 @@
 "all of my functions are in this file and you can import this file to use them"
 
-def reverseWords(input):
+def reverseWords(input=None):
     "you can use the reverseWords functon to reverse the words in a sentence except punctuation"
     inputWords = input.split(" ")
     inputWords = inputWords[-1::-1]
     output = " ".join(inputWords)
     return output
 
-def fibonacciSeries(sum):
+def fibonacciSeries(sum=10):
     "you can use this function to calculate the Fibonacci series "
     a, b = 0, 1
     while b < sum:
         a, b = b, a + b
     return a
 
-def guessNumber(num):
+def guessNumber(num=5):
     "this is a game called Guess Number"
     guess = -1
     if num not in range(10):
@@ -42,3 +42,8 @@ def forTest():
         print(i)
     for i in l:
         print(i)
+
+def findMaxAndMin(*num):
+    return max(num), min(num)
+    
+mySum = lambda num1, num2: num1 + num2
