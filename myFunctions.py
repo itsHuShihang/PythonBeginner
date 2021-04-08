@@ -1,5 +1,7 @@
 "all of my functions are in this file and you can import this file to use them"
 
+import sys
+
 def reverseWords(input=None):
     "you can use the reverseWords functon to reverse the words in a sentence except punctuation"
     inputWords = input.split(" ")
@@ -47,3 +49,15 @@ def findMaxAndMin(*num):
     return max(num), min(num)
     
 mySum = lambda num1, num2: num1 + num2
+
+def errorTest(num1,num2):
+    try:
+        print(num1 / num2)
+    except:
+        print(sys.exc_info()[0])
+        #raise
+    else:
+        print('success')
+    finally:
+        print('end')
+    return None

@@ -14,3 +14,5 @@ import myFunctions
 # print('max=', max, 'min=', min)
 
 # print(myFunctions.mySum(1,12))
+
+# myFunctions.errorTest(1,0)
